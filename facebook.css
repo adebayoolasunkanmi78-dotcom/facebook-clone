@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.login-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  padding: 0px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.facebook-logo {
+  width: 60px;
+  order: 1;
+}
+
+.collage-img {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 0px;
+  order: 2;
+}
+
+.headline {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: black;
+  order: 3;
+  padding-top: 20px;
+}
+
+.highlight {
+  color: royalblue;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-left: 1px solid lightgray;
+  padding-left: 35px;
+  align-self: stretch;
+  height: 100%;
+  padding-top: 90px;
+}
+
+.right-side h2 {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.right-side form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.right-side input {
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.login-btn {
+  background-color: royalblue;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  border-radius: 31px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.forgot-link {
+  color: black;
+  text-decoration: none;
+  margin: 15px 0 40px;
+  text-align: center;
+}
+
+.create-account-btn {
+  background-color: white;
+  color: royalblue;
+  border: 1px solid royalblue;
+  padding: 15px 30px;
+  border-radius: 33px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.meta-logo {
+  font-size: 0.95rem;
+  color: black;
+}
+.fb-footer {
+  border-top: 1px solid lightgray;
+  padding: 30px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-languages,
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.fb-footer a {
+  color: gray;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
